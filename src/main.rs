@@ -40,7 +40,7 @@ impl Application for Quotes {
             Quotes::Errored { .. } => "Whoops!",
         };
 
-        format!("{subtitle} - Pokédex")
+        format!("{subtitle} - Quotes")
     }
 
     fn update(&mut self, message: Message) -> Command<Message> {
